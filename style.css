@@ -64,11 +64,14 @@
         padding: 0 80px 0 80px;
     }
     .HowIdoit__BG {
-        height: 80vh;
+        height: auto;
         background-image: url(./img/HowIdoit\ -\ BG.png);
         background-size: cover;
         padding: 10vh 0 10vh 0;
     }
+        .HowIdoit__text {
+            padding: 50px 0 50px 0;
+        }
 /* .footer__BG {
     background: linear-gradient(#A1EEF8, #DF8B9B);
     width: auto;
