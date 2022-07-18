@@ -1,0 +1,10 @@
+.Home__Header__BG {
+    background-image: url(./img/header\ BG\ clean-01.jpg);
+    background-size: cover;
+    height: 80vh;
+    overflow: hidden;
+}
+.Home__Header__Image {
+    width: 400px;
+    z-index: 1;
+}
