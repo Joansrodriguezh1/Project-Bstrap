@@ -1,10 +1,91 @@
 .Home__Header__BG {
+    padding: 10vh 0 10vh 0;
     background-image: url(./img/header\ BG\ clean-01.jpg);
     background-size: cover;
     height: 80vh;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 .Home__Header__Image {
-    width: 400px;
-    z-index: 1;
+    height:  200px;
+}
+.WhatIdo__BG {
+    height: 80vh;
+    overflow: hidden;
+    background-image: url(./img/WhatIdo__BG.png );
+    background-size: cover;
+    padding: 10vh 0 10vh 0;
+}
+.services__BG {
+    height: auto;
+    background-image: url(./img/Services\ BG.png);
+    background-size: cover;
+    padding: 10vh 0 10vh 0;
+}
+    .services__Panel1 {
+        height: 60vh;
+        background-image: url(./img/services__Panel1.png);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding: 15vh 0 5vh 0;
+        width: 400px;
+    }
+    .services__Panel2 {
+        height: 60vh;
+        background-image: url(./img/Services__Panel\ 2.png);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding: 15vh 0 5vh 0;
+        width: 400px;
+    }
+    .services__Panel3 {
+        height: 60vh;
+        background-image: url(./img/Services__panel\ 3.png);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding: 15vh 0 5vh 0;
+        width: 400px;
+    }
+    .services__Panel__STAR1 {
+        width: 100px;
+        padding: 0 0 0 5;
+        align-self: flex-end;
+    }
+    .services__Panel__STAR2 {
+        width: 100px;
+    }
+    .services__Panel__STAR {
+        width: 150px;
+        padding: 0 60px 0 0;
+    }
+    .services__Panel__text {
+        padding: 0 80px 0 80px;
+    }
+    .HowIdoit__BG {
+        height: 80vh;
+        background-image: url(./img/HowIdoit\ -\ BG.png);
+        background-size: cover;
+        padding: 10vh 0 10vh 0;
+    }
+/* .footer__BG {
+    background: linear-gradient(#A1EEF8, #DF8B9B);
+    width: auto;
+} */
+
+.text--white {
+    color: white;
+}
+.text--gray {
+    color: #666666;
+}
+@media (max-width: 992px) {
+    .WhatIdo__BG {
+        height: 100vh;   
+    }
+    .WhatIdo__Rspnsve {
+        margin: 5vh 0 5vh 0;
+        
+    }
 }
