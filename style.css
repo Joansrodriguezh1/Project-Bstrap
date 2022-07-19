@@ -138,6 +138,20 @@
     .Portfolio__SMD_Star4 {
         padding: 10vh 0 0 0;
     }
+    .Contact__BG {
+        padding: 10vh 0 10vh 0;
+        background-image: url(./img/header\ BG\ clean-01.jpg);
+        background-size: cover;
+        height: auto;
+    }
+    .Contact__Form {
+        width: 50%;
+        background-color: white;
+        padding: 3% 3% 3% 3%;
+        border-radius: 20px;
+        margin: 0 auto 0 auto;
+    }
+    
 .text--white {
     color: white;
 }
