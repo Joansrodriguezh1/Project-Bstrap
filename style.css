@@ -29,6 +29,7 @@
         background-repeat: no-repeat;
         padding: 15vh 0 5vh 0;
         width: 400px;
+        margin: 50px 0 50px 0;
     }
     .services__Panel2 {
         height: 60vh;
@@ -38,6 +39,7 @@
         background-repeat: no-repeat;
         padding: 15vh 0 5vh 0;
         width: 400px;
+        margin: 50px 0 50px 0;
     }
     .services__Panel3 {
         height: 60vh;
@@ -47,6 +49,7 @@
         background-repeat: no-repeat;
         padding: 15vh 0 5vh 0;
         width: 400px;
+        margin: 50px 0 50px 0;
     }
     .services__Panel__STAR1 {
         width: 100px;
@@ -102,6 +105,39 @@
 .Aboutme__skills__block {
     padding: 30px 0 30px 0;
 }
+.Portfolio__BG {
+    padding: 10vh 0 10vh 0;
+    background-image: url(./img/header\ BG\ clean-01.jpg);
+    background-size: cover;
+    height: auto;
+}
+    .Portfolio__BG__image {
+        background-image: url(./img/Portfolio__UIDesign__Header.png);
+        background-size: 40vh;
+        height: 70vh;
+        background-repeat: no-repeat;
+        background-position: center;
+
+    }
+    .Portfolio__BG__text {
+        margin: 0 0 10vh 0;
+    }
+.Portfolio__SMD_BG {
+    background-image: url(./img/Services\ BG.png);
+    height: auto;
+    background-size: cover;
+}
+    .Portfolio__SMD_image {
+        background-image: url(./img/Portfolio__SocialMediaDesign__Header.png);
+        background-repeat: no-repeat;
+        background-position: left ;
+        background-size: 40vh;
+        height: 70vh;
+        padding: 10vh 0 10vh 0;
+    }
+    .Portfolio__SMD_Star4 {
+        padding: 10vh 0 0 0;
+    }
 .text--white {
     color: white;
 }
@@ -115,5 +151,11 @@
     .WhatIdo__Rspnsve {
         margin: 5vh 0 5vh 0;
         
+    }
+    .Portfolio__SMD_Star4 {
+        display: none;
+    }
+    .Portfolio__SMD_Star7 {
+        padding: 0 0 10vh 0;
     }
 }
